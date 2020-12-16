@@ -1,4 +1,4 @@
-# Project Title
+# Custom video player
 
 An interactive website where the user can play videos and make cool stuff like re-entizing a video
 
@@ -18,13 +18,15 @@ An interactive website where the user can play videos and make cool stuff like r
 
 ## 0.Setup
 
-- [ ] Create repo
-- [ ] Add Contributors
-- [ ] Set up Project Board
-- [ ] Start README
-- [ ] Turn on GitHub Pages
+- [x] Create repo
+- [x] Add Contributors
+- [x] Set up Project Board
+- [x] Start README
+- [x] Turn on GitHub Pages
 
 ## Video player play button
+
+> Assigned to **Krystyna**.
 
 **As a user when play the video web I want to stop the video so that i can make a brake when if a event happens...**
 
@@ -39,15 +41,17 @@ An interactive website where the user can play videos and make cool stuff like r
 
 Play and pause the video
 
-- `togglePlay.js`: a handler that plays and pause the video. Assigned to **Krystyna**.
-- `updateButton.js`: a handler that updates the button when is clicked to pause or play. Assigned to **Kristina**.
+- `togglePlay.js`: a handler that plays and pause the video. 
+- `updateButton.js`: a handler that updates the button when is clicked to pause or play.
 
 ### Play and pause the video listeners
 
-- `click-togglePlay.js`: an event that happens when the user click the play button, it will stop and pause. Assigned to **Krystyna**
-- `click-togglePlay.js`: an event that happens when the user click the play button, it will change the text icon. Assigned to **Krystyna**
+- `click-togglePlay.js`: an event that happens when the user click the play button, it will stop and pause.
+- `click-togglePlay.js`: an event that happens when the user click the play button, it will change the text icon. 
 
 ## II. Skip video buttons
+
+> Assigned to **Brain**.
 
 **As a user when play the video web I want to stop the video so that i can make a brake when if a event happens...**
 
@@ -60,13 +64,15 @@ Play and pause the video
 
 ### Skip video handler
 
-- `skip.js`: a handler that skips the video in intervals of seconds forward and backward. Assigned to **Brain**.
+- `skip.js`: a handler that skips the video in intervals of seconds forward and backward.
 
 ### Skip video listeners
 
-- `click-skip.js`: an event that happens when the user click the buttons, it will go forward or backward. Assigned to **Brain**
+- `click-skip.js`: an event that happens when the user click the buttons, it will go forward or backward.
 
 ## III. Range video bar
+
+> Assigned to **Brain**.
 
 **As a user when play the video web I want to make the video slower or faster so that i can see more in detail a specific part of the video...**
 
@@ -79,14 +85,16 @@ Play and pause the video
 
 ### Range update video handler
 
-- `handlerRangeUpdate.js`:  a handler that sets the range to put slower or faster the video. Assigned to **Brain**.
+- `handlerRangeUpdate.js`:  a handler that sets the range to put slower or faster the video.
 
 ### Range update video listener
 
-- `change-mousemov-handRangUpd.js`: an event that happens when the user click an drag the range bar, it will  put slower or faster the video. Assigned to **Brain**
+- `change-mousemov-handRangUpd.js`: an event that happens when the user click an drag the range bar, it will  put slower or faster the video.
 
 
 ## IV. Progress video bar
+
+> Assigned to **Divya**.
 
 **As a user when play the video web I want to drag the time status bar so that i can move forward or backwards faster  ...**
 
@@ -99,11 +107,11 @@ Play and pause the video
 
 ### Progress update video handler
 
-- `handleProgress.js`:  a handler that sets the time in tha video when the bar in dragged. Assigned to **Divya**.
-- `scrub.js`:  a handler that sets the range of the line bar to see where is the current time playing. Assigned to **Divya**.
+- `handleProgress.js`:  a handler that sets the time in tha video when the bar in dragged.
+- `scrub.js`:  a handler that sets the range of the line bar to see where is the current time playing.
 
 ### Progress update video listener
 
-- `timeupdate-handleProgress.js`: an event that happens when the user clicks an drag the range bar, set the video in the time desired. Assigned to **Divya**
+- `timeupdate-handleProgress.js`: an event that happens when the user clicks an drag the range bar, set the video in the time desired.
 
-- `click-mouse-scrub.js`: an event that happen when the user click an drag the range bar, set the status bar video in the time desired. Assigned to **Divya**
+- `click-mouse-scrub.js`: an event that happen when the user click an drag the range bar, set the status bar video in the time desired.
