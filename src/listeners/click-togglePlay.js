@@ -1,4 +1,7 @@
 'use strict';
 
-import {} from '';
+import {togglePlay} from '../handlers/togglePlay.js';
 
+
+video.addEventListener('click', togglePlay);
+toggle.addEventListener('click', togglePlay);
