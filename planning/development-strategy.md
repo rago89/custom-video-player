@@ -37,6 +37,10 @@ An interactive website where the user can play videos and make cool stuff like r
 - This user story is developed on branch `togglePlay`.
 - This branch is merged to `master` branch after the acceptance criteria have been checked off.
 
+### Variables 
+
+- `data.js` get our elements.
+
 ### I. Play and pause the video handlers
 
 Play and pause the video
@@ -48,7 +52,8 @@ Play and pause the video
 
 - `click-togglePlay.js`: an event that happens when the user click the play button, it will stop and pause.
 - `click-togglePlay.js`: an event that happens when the user click the play button, it will change the text icon. 
-
+- `play-and-pause-updateButton.js`: an event that happens when the user play and pause the button
+ 
 ## II. Skip video buttons
 
 > Assigned to **Brain**.
