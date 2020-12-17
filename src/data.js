@@ -1,8 +1,9 @@
 'use strict';
-export  const player = document.querySelector('.player');
-export const video = player.querySelector('.viewer');
-export const progress = player.querySelector('.progress');
-export const progressBar = player.querySelector('.progress__filled');
-export const toggle = player.querySelector('.toggle');
-export const skipButtons = player.querySelectorAll('[data-skip]');
-export const ranges = player.querySelectorAll('.player__slider')
+ const player = document.querySelector('.player');
+ const video = player.querySelector('.viewer');
+ const progress = player.querySelector('.progress');
+ const progressBar = player.querySelector('.progress__filled');
+ const toggle = player.querySelector('.toggle');
+ const skipButtons = player.querySelectorAll('[data-skip]');
+ const ranges = player.querySelectorAll('.player__slider');
+export { player, video, progress, progressBar, toggle, skipButtons, ranges };
