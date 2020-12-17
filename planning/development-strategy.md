@@ -6,7 +6,7 @@ An interactive website where the user can play videos and make cool stuff like r
 
 ## User Story Dependencies
 
-[Story Dependency Diagram](../public\Stories-dependencies.png)
+[Story Dependency Diagram](../public/img/Stories-dependencies.png)
 
 ---
 
