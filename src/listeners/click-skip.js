@@ -1,5 +1,6 @@
 'use strict';
 
+
 import {skip} from '../handlers/skip.js';
 
 /**
@@ -8,3 +9,4 @@ import {skip} from '../handlers/skip.js';
  * */
 
 skipButtons.forEach(button => button.addEventListener('click', skip));
+
