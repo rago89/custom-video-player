@@ -11,6 +11,7 @@ An interactive website with a amazing feature that is a video player where the u
   - [Screenshots](#screenshots)
   - [Status](#status)
   - [Contributions](#contributions)
+  - [Launch](https://rago89.github.io/custom-video-player/)
 ## General info
 
 An interactive website where the user can play videos and make cool stuff like re-entizing, break and navigate into the video
