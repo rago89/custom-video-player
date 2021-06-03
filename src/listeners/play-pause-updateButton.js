@@ -1,8 +1,7 @@
-'use strict';
+"use strict";
 
-import {updateButton} from '../handlers/updateButton.js';
-import {video} from '../data';
+import { updateButton } from "../handlers/updateButton.js";
+import { video } from "../data.js";
 
- video.addEventListener('play', updateButton);
- video.addEventListener('pause', updateButton);
-
+video.addEventListener("play", updateButton);
+video.addEventListener("pause", updateButton);

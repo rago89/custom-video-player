@@ -1,4 +1,4 @@
-'use strict';
+import { handleProgress } from "../handlers/handleProgress.js";
+import { video } from "../data.js";
 
-import {handleProgress} from '../handlers/handleProgress.js';
-video.addEventListener('timeupdate', handleProgress);
+video.addEventListener("timeupdate", handleProgress);
